@@ -79,6 +79,7 @@ class Tabs extends React.Component {
         eventKey={eventKey}
         disabled={disabled}
         className={tabClassName}
+        href="javascript:void(0)"
       >
         {title}
       </NavItem>
